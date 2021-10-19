@@ -70,7 +70,7 @@ namespace Week03_Sample
 
             translateButton.Clicked += OnTranslate;
 
-            //Part3 added 
+            //Part3 added with using Xamarin.Essentials API
             callButton.Clicked += OnCall;
 
             this.Content = panel;
@@ -91,7 +91,7 @@ namespace Week03_Sample
             }
 
 
-            //Part3
+            //Part3 added with using Xamarin.Essentials API
             void OnCall(object sender, System.EventArgs e)
             {
                 //Using Xamarin.Essentials API

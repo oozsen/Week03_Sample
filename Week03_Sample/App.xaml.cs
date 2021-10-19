@@ -11,6 +11,7 @@ namespace Week03_Sample
             InitializeComponent();
 
             //MainPage = new MainPage();
+            //Part2
             MainPage = new NavigationPage(new MainPage());
 
             // The root page of your application
