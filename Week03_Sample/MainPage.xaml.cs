@@ -70,7 +70,7 @@ namespace Week03_Sample
 
             translateButton.Clicked += OnTranslate;
 
-            //Part3
+            //Part3 added
             callButton.Clicked += OnCall;
 
             this.Content = panel;
